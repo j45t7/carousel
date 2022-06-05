@@ -1,0 +1,15 @@
+.o-carousel--prev {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.o-carousel--next {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
