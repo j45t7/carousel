@@ -1,0 +1,71 @@
+.container--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.o-carousel--item {
+  text-align: right;
+  position: relative;
+}
+.o-carousel--item img {
+  object-fit: cover;
+}
+
+.o-carousel--row {
+  justify-content: right;
+  display: flex;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.o-carousel--thumbnail {
+  padding-left: 10px;
+}
+
+.o-carousel--thumbnail > img {
+  opacity: 0.45;
+}
+
+img.active {
+  opacity: 1;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+.line {
+  border-left: 2px solid #c7c7c7;
+  height: auto;
+}
+
+.o-carousel--number {
+  position: absolute;
+  color: black;
+  background-color: #ebedea;
+  opacity: 0.75;
+  right: 35px;
+  bottom: 3px;
+  display: flex;
+  padding: 3px;
+}
+
+.o-carousel--current {
+  margin-top: 6px;
+}
+.o-carousel--last {
+  margin-bottom: 10px;
+  padding-top: 5px;
+}
+.o-carousel--line {
+  font-size: 2em;
+  font-weight: 100;
+}
+
+.o-carousel--caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

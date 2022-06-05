@@ -1,0 +1,30 @@
+.description {
+  padding: 0 20px 0;
+}
+
+.description--bg {
+  background-color: #f9f9f9;
+  position: absolute;
+  top: 50px;
+  width: 50%;
+  height: 800px;
+  z-index: -1;
+}
+
+.title {
+  margin-top: 0;
+  font-size: 4rem;
+  padding-left: 30px;
+}
+
+.text--paragraph {
+  padding-left: 30px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+br {
+  display: block; /* makes it have a width */
+  content: ''; /* clears default height */
+  margin-top: 1rem; /* change this to whatever height you want it */
+}
