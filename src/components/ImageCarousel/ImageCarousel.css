@@ -47,9 +47,10 @@ img.active {
   background-color: #ebedea;
   opacity: 0.75;
   right: 35px;
-  bottom: 3px;
+  bottom: 5px;
   display: flex;
   padding: 3px;
+  height: 50px;
 }
 
 .o-carousel--current {
